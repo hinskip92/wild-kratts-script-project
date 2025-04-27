@@ -1,0 +1,36 @@
+# Core libraries for PDF processing, NLP, and API interaction
+# Install using: pip install -r requirements.txt
+
+# For PDF text extraction (choose one or adapt script)
+# PyMuPDF (fast, good fidelity)
+# PyMuPDF>=1.18.14
+
+# pdfminer.six (pure Python, alternative)
+# pdfminer.six>=20201018
+
+# For NLP tasks (sentence segmentation, potentially NER)
+# spacy>=3.0.0
+# You'll also need to download a model, e.g.:
+# python -m spacy download en_core_web_sm
+
+# For interacting with OpenAI API
+openai>=1.14.0
+
+# For reading YAML job files (if using harvest_toolgap.py)
+PyYAML>=5.4
+
+# For data manipulation and manifests
+pandas>=1.2.0
+
+# Optional: For database interaction (example: PostgreSQL)
+# psycopg2-binary>=2.8.6
+
+# Optional: For vector databases (examples)
+# pinecone-client>=2.2.1
+# pymilvus>=2.1.0
+
+# Optional: For web frameworks (if building UI)
+# streamlit>=1.0.0
+# flask>=2.0.0
+
+# Add other specific dependencies as needed
