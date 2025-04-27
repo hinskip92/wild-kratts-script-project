@@ -1,0 +1,6 @@
+
+- type: file
+  file_path: "scripts/WK705Backpackthecamelasproducedscript.pdf"   # upload if no file_id
+  query: "List every animal mentioned and every creature power used as well as who activated by in the script."
+  out: Backpack_the_camel_script.json
+  model: o3
